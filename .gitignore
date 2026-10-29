@@ -1,0 +1,17 @@
+# build output
+build/
+*.asi
+*.dll
+*.o
+
+# third-party files the kit uses but does not ship (see README)
+kit/third_party/*.zip
+kit/ini/SunnySideUp*.ini
+kit/vkbasalt/shaders/*.fx
+kit/vkbasalt/shaders/*.fxh
+kit/vkbasalt/presets/*.ini
+
+# runtime
+*.log
+__pycache__/
+*.bak*
