@@ -118,9 +118,9 @@ settings, and anisotropic filtering goes through a small stub at the `CreateSamp
 All hooks are hand-written 14-byte absolute-jump detours with trampolines, each guarded by a
 byte check of the function head.
 
-## Built with AI agents
+## Workflow for this Project
 
-The plugin was reverse-engineered and written with Claude Code working on the live game:
+The plugin was reverse-engineered and written with Cloud LLMs working on the live game, by hooking into memory directly:
 
 - The agent attached gdb to the running game under Proton with hardware breakpoints to trace
   the renderer, and poked memory live through
