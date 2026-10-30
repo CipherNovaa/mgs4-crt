@@ -118,7 +118,7 @@ settings, and anisotropic filtering goes through a small stub at the `CreateSamp
 All hooks are hand-written 14-byte absolute-jump detours with trampolines, each guarded by a
 byte check of the function head.
 
-## Workflow for this Project
+## Workflow for this project
 
 The plugin was reverse-engineered and written with Cloud LLMs working on the live game, by hooking into memory directly:
 
